@@ -34,7 +34,7 @@ ContinueBtn.onclick = () =>{
     MainContainer.classList.remove('active');
     //console.log(Name.value)
     UserName.innerHTML= "Hi, "+Name.value;
-    Heading.innerText= "Wel Come! "+ Name.value;
+    Heading.innerText= "Welcome, "+ Name.value;
 }
  Try.onclick = () =>{
     quiz.classList.remove('active');
