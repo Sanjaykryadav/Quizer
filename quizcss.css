@@ -715,7 +715,7 @@ select {
     width: 300px;
     margin: 16px;
     margin-right: 30px;
-    height: 85%;
+    height: 80%;
   }
   .quiz-box .quiz-header{
     margin-bottom: 15px;
@@ -737,6 +737,7 @@ select {
   .answer-wrapper .answer{
     margin-bottom: 9px;
     padding: 9px;
+    font-size:18px;
   }
 
   
