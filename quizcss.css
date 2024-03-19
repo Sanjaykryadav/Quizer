@@ -703,6 +703,7 @@ select {
   .settings-screen {
     width: 300px;
     margin: 7px;
+    margin-top: -50px;
   }
 
   .settings-screen .start {
@@ -713,18 +714,51 @@ select {
     width: 300px;
     margin: 16px;
     margin-right: 30px;
-    height: 90%;
+    height: 85%;
   }
+  .quiz-box .quiz-header{
+    margin-bottom: 15px;
+  }
+  .question-wrapper .question {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .question-wrapper,
+  .answer-wrapper {
+     margin-bottom: 10px;
+  }
+  .question-wrapper .number{
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  .answer-wrapper .answer{
+    margin-bottom: 9px;
+    padding: 9px;
+  }
+
+  
 
   .img-nmae {
 
-    width: 200px;
+    width: 180px;
 
+  }
+  .user-name {
+    height: 30px;
+  }
+  .quiz-box .quiz-header img {
+    margin-top: 5px;
+  }
+  .timer{
+    margin-top: -5px;
   }
 
   .timer .progress {
-    width: 116px;
+    width: 135px;
     margin-right: 20px;
+    margin-top: 5px;
   }
 
 
@@ -738,7 +772,6 @@ select {
   }
   .btn{
     margin-left: 4rem;
+  
   }
-
-
 }
