@@ -314,7 +314,7 @@ select {
 .quiz-box {
   position: relative;
   width: 500px;
-  height: 700px;
+  height: 650px;
   background: transparent;
   border: 3px solid #484461;
   display: flex;
@@ -366,7 +366,7 @@ select {
 }
 
 .user-name {
-  height: 50px;
+  height: 30px;
   width: 250px;
   color: white;
 }
@@ -418,7 +418,8 @@ select {
   color: #a2aace;
   font-size: 25px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  margin-to:-10px
 }
 
 .question-wrapper .number .total {
@@ -436,14 +437,14 @@ select {
 .answer-wrapper .answer {
   width: 95%;
   padding: 10px;
-  font-size: 18px;
+  font-size: 8px;
   border-radius: 10px;
   color: #fff;
   border: 3px solid #3f4868;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition: 0.3s linear;
 }
